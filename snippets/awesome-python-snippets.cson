@@ -1,0 +1,35 @@
+'.source.python':
+  'Python File Header':
+    'prefix': 'fileheader'
+    'body': '# -*- coding: utf-8 -*-'
+  'import numpy':
+    'prefix': 'imnp'
+    'body': 'import numpy as np'
+  'import pandas':
+    'prefix': 'impd'
+    'body': 'import pandas as pd'
+  'import ipywidgets':
+    'prefix': 'impwid'
+    'body': 'from ipywidgets import widgets'
+
+  'Main Class':
+    'prefix': 'mainclass'
+    'body':'''
+    class ${1:NewClass}(object):
+        """$2"""
+
+        def __init__(self, *args, **kwargs):
+            """$3"""
+            ${4:pass}
+    '''
+
+  'Subclass':
+    'prefix': 'subclass'
+    'body':'''
+    class ${1:Subclass}(${2:object}):
+        """$3"""
+
+        def __init__(self, *args, **kwargs):
+            """$4"""
+            super(${5:Subclass}, self).__init__(*args, **kwargs)
+    '''
