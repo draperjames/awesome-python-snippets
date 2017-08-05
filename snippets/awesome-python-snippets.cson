@@ -1,17 +1,47 @@
 '.source.python':
+
   'Python File Header':
     'prefix': 'fileheader'
     'body': '# -*- coding: utf-8 -*-'
+
+# Imports
+  'import re':
+    'prefix': 'impr'
+    'body': 'import re'
+
   'import numpy':
     'prefix': 'imnp'
     'body': 'import numpy as np'
+
   'import pandas':
     'prefix': 'impd'
     'body': 'import pandas as pd'
-  'import ipywidgets':
-    'prefix': 'impwid'
-    'body': 'from ipywidgets import widgets'
 
+  'import matplotlib pyplot':
+    'prefix': 'impmpl'
+    'body': 'from matplotlib import pyplot as plt'
+
+  'import BeautifulSoup':
+    'prefix': 'impbs'
+    'body': 'from bs4 import BeautifulSoup'
+
+  'import datetime':
+    'prefix': 'impdt'
+    'body': 'from datetime import datetime'
+
+# Functions
+
+  'Function':
+    'prefix': 'func'
+    'body':'''
+    def ${1:new_function}(${2:arg}):
+        """$3"""
+        $4
+        return $5
+    '''
+
+
+# Classes
   'Main Class':
     'prefix': 'mainclass'
     'body':'''
