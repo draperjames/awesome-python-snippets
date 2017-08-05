@@ -1,17 +1,17 @@
 {
-    "name": "awesome-python-snippets",
-    "main": "./lib/main",
-    "version": "0.1.1",
-    "description": "Snippets for Python",
-    "keywords": [
-        "snippets",
-        "python"
-    ],
-    "activationCommands": {},
-    "repository": "https://github.com/draperjames/awesome-python-snippets",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {}
+  "name": "awesome-python-snippets",
+  "main": "./lib/main",
+  "version": "0.2.0",
+  "description": "Snippets for Python",
+  "keywords": [
+    "snippets",
+    "python"
+  ],
+  "activationCommands": {},
+  "repository": "https://github.com/draperjames/awesome-python-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
