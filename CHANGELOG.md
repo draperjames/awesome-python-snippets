@@ -1,4 +1,8 @@
-## 0.1,1 - 08-04-2017
+## 0.2,1 - 08-04-2017
+* Added more imports.
+* Added `for` loops.
+
+## 0.2,0 - 08-04-2017
 * Added function support.
 
 ## 0.1.0 - 08-04-2017

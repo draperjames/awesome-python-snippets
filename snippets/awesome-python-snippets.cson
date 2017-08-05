@@ -18,16 +18,38 @@
     'body': 'import pandas as pd'
 
   'import matplotlib pyplot':
-    'prefix': 'impmpl'
+    'prefix': 'immpl'
     'body': 'from matplotlib import pyplot as plt'
 
   'import BeautifulSoup':
-    'prefix': 'impbs'
+    'prefix': 'imbs'
     'body': 'from bs4 import BeautifulSoup'
 
   'import datetime':
-    'prefix': 'impdt'
+    'prefix': 'imdt'
     'body': 'from datetime import datetime'
+
+# Loops
+
+  'for loop':
+    'prefix': 'fori'
+    'body':'''
+    for ${1:i} in ${2:iterable}:
+        $3
+    '''
+
+  'for loop in range len':
+    'prefix': 'forr'
+    'body':'''
+    for ${1:i} in range(len(${2:iterable})):
+        $3
+    '''
+
+  'for loop one liner':
+    'prefix': 'foro'
+    'body':'''
+    [${1:i} for ${1:i} in ${2:iterable}]:
+    '''
 
 # Functions
 
@@ -61,5 +83,6 @@
 
         def __init__(self, *args, **kwargs):
             """$4"""
-            super(${5:Subclass}, self).__init__(*args, **kwargs)
+            super(${1:Subclass}, self).__init__(*args, **kwargs)
+            $5
     '''
