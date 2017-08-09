@@ -9,6 +9,21 @@
     'prefix': 'impr'
     'body': 'import re'
 
+  'import os and sys':
+    'prefix': 'imos'
+    'body': '''
+    import os
+    import sys
+    '''
+
+  'import functools':
+    'prefix': 'imfu'
+    'body': 'import functools'
+
+  'import itertools':
+    'prefix': 'imit'
+    'body': 'import itertools'
+
   'import numpy':
     'prefix': 'imnp'
     'body': 'import numpy as np'
@@ -48,7 +63,7 @@
   'for loop one liner':
     'prefix': 'foro'
     'body':'''
-    [${1:i} for ${1:i} in ${2:iterable}]:
+    [${1:i} for ${1:i} in ${2:iterable}]
     '''
 
 # Functions
