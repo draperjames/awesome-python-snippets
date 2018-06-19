@@ -4,6 +4,18 @@
     'prefix': 'fileheader'
     'body': '# -*- coding: utf-8 -*-'
 
+  'Python File Shebang':
+    'prefix': 'shebang'
+    'body': '#!/usr/bin/env python'
+
+  'set breakpoint for ipdb debugger':
+    'prefix': 'ipdb'
+    'body': 'import ipdb; ipdb.set_trace()  # noqa'
+
+  'set scripting environment':
+    'prefix': 'ifname'
+    'body': 'if __name__ == "__main__":'
+
 # Imports
   'import re':
     'prefix': 'impr'

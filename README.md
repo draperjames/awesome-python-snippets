@@ -6,8 +6,13 @@ Shorthand [snippets](https://atom.io/packages/snippets) for Python.
 
 ### Whats Included?
 
-#### Imports
+#### Misc
 * `fileheader` -> `# -*- coding: utf-8 -*-'`
+* `shebang` -> `#!/usr/bin/env python`
+* `ipdb` -> `import ipdb; ipdb.set_trace()  # noqa`
+* `ifname` -> `if __name__ == "__main__":`
+
+#### Imports
 * `imr` -> `import re`
 * `imnp` -> `import numpy as np`
 * `impd` -> `import pandas as pd`
@@ -21,7 +26,7 @@ Shorthand [snippets](https://atom.io/packages/snippets) for Python.
 * `forr` -> for loop in range length.
 * `foro` -> one-liner for loop.
 
-### Functions
+#### Functions
 
 * `func` -> basic function template.
 
@@ -36,4 +41,4 @@ Issues, Pull Requests, and suggestion are welcome.
 
 ### To do list
 
-[ ] Add fancy gifs. 
+[ ] Add fancy gifs.
