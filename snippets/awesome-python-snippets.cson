@@ -21,6 +21,10 @@
     'prefix': 'impr'
     'body': 'import re'
 
+  'import requests':
+    'prefix': 'imreq'
+    'body': 'import requests'
+
   'import os and sys':
     'prefix': 'imos'
     'body': '''
