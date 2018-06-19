@@ -19,6 +19,7 @@ Shorthand [snippets](https://atom.io/packages/snippets) for Python.
 * `imbs` -> `from bs4 import BeautifulSoup`
 * `immpl` -> `from matplotlib import pyplot as pl`
 * `imdt` -> `from datetime import datetime`
+* `imreq` -> `import requests`
 
 #### For loops
 
@@ -42,3 +43,5 @@ Issues, Pull Requests, and suggestion are welcome.
 ### To do list
 
 [ ] Add fancy gifs.
+[ ] Add contributers list.
+
